@@ -2,7 +2,7 @@
 
 [![Hex Version](https://img.shields.io/hexpm/v/ecto_struct_cachex.svg)](https://hex.pm/packages/ecto_struct_cachex) [![docs](https://img.shields.io/badge/docs-hexpm-blue.svg)](https://hexdocs.pm/ecto_struct_cachex/)
 
-Once downloaded, Two Things Todo: 
+Once downloaded, Run following commands: 
 
 ```bash
 mix deps.get
