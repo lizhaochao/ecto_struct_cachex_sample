@@ -8,13 +8,6 @@ Once downloaded, Two Things Todo:
 mix deps.get
 mix test
 ```
-```bash
-# confirm gc configs which are expected, run following commands.
-# use test.exs to run
-MIX_ENV=test iex -S mix
-# use dev.exs to run
-iex -S mix
-```
 ## Contributing
 Contributions to ecto_struct_cachex ([Gitee](https://gitee.com/lizhaochao/ecto_struct_cachex) or [Github](https://github.com/lizhaochao/ecto_struct_cachex)) are very welcome!
 
