@@ -1,4 +1,4 @@
-# Elixir ecto_struct_cachex Package Example Project
+# Elixir ecto_struct_cachex Package Sample Project
 
 [![Hex Version](https://img.shields.io/hexpm/v/ecto_struct_cachex.svg)](https://hex.pm/packages/ecto_struct_cachex) [![docs](https://img.shields.io/badge/docs-hexpm-blue.svg)](https://hexdocs.pm/ecto_struct_cachex/)
 
