@@ -1,5 +1,9 @@
 defmodule CacheDecorator do
   use ESC
+end
+
+defmodule API do
+  use CacheDecorator
 
   ### Reformat resp via post_hook/1 callback
   def post_hook(resp) do
@@ -8,10 +12,6 @@ defmodule CacheDecorator do
       _other -> resp
     end
   end
-end
-
-defmodule API do
-  use CacheDecorator
 
   @decorate cache_put(User)
   def create_user(id, name) do

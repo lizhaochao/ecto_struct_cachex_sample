@@ -1,4 +1,4 @@
 %{
   "decorator": {:hex, :decorator, "1.4.0", "a57ac32c823ea7e4e67f5af56412d12b33274661bb7640ec7fc882f8d23ac419", [:mix], [], "hexpm", "0a07cedd9083da875c7418dea95b78361197cf2bf3211d743f6f7ce39656597f"},
-  "ecto_struct_cachex": {:hex, :ecto_struct_cachex, "0.2.4", "6b4b879e91e3b034be4f2cffaa624949d25b030b09e36737a5cc9c935be5239e", [:mix], [{:decorator, "~> 1.4.0", [hex: :decorator, repo: "hexpm", optional: false]}], "hexpm", "626bbe51094ae6369f76107b4e4b6dfeb63a4ff077cf00c104aa2dd64d1b9faf"},
+  "ecto_struct_cachex": {:hex, :ecto_struct_cachex, "0.2.5", "c26d2d4c0b4c65b996c0c96709b8133b57f79049ccda190c8a8c8f9e3690aff2", [:mix], [{:decorator, "~> 1.4.0", [hex: :decorator, repo: "hexpm", optional: false]}], "hexpm", "7ecbe6eb372b42d402e7225a03a0088ee83eea79c26fd27a8fb44018da5629a8"},
 }
