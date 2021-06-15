@@ -8,7 +8,7 @@ defmodule EctoStructCachexSample.MixProject do
       elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
       aliases: [test: ["format", "test"]],
-      deps: [{:ecto_struct_cachex, "~> 0.2.3"}]
+      deps: [{:ecto_struct_cachex, "~> 0.2.4"}]
     ]
   end
 

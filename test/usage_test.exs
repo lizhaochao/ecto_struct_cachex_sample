@@ -14,7 +14,7 @@ defmodule UsageTest do
 
   test "delete nested struct, then related struct will be deleted" do
     {:ok, %User{id: uid, role: %Role{id: rid}}} = API.create_user(@nonsense_id, @nonsense_name)
-    :ok = API.delete_role(rid)
+    :okkk = API.delete_role(rid)
 
     # two uids should be not equal.
     # cause get_user will create new random one if not found in cache.

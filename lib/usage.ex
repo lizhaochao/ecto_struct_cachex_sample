@@ -1,5 +1,13 @@
 defmodule CacheDecorator do
   use ESC
+
+  ### Reformat resp via post_hook/1 callback
+  def post_hook(resp) do
+    case resp do
+      :ok -> :okkk
+      _other -> resp
+    end
+  end
 end
 
 defmodule API do
